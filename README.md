@@ -1,7 +1,7 @@
 # react-native-lyft-ui-clone
 React Native lyft ui clone using react, redux, sagas and hooks
 
-For Android
+<b>For Android</b>
 Add your API key to your manifest file (android/app/src/main/AndroidManifest.xml):
 
 <application>
