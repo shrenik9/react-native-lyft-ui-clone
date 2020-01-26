@@ -5,12 +5,12 @@ React Native lyft ui clone using react, redux, sagas and hooks
 Add your API key to your manifest file (android/app/src/main/AndroidManifest.xml):
 
 <pre>
-<application>
+ <!-- <application>
    <!-- You will only need to add this meta-data tag, but make sure it's a child of application -->
    <meta-data
      android:name="com.google.android.geo.API_KEY"
      android:value="Your Google maps API Key Here"/>
-</application>
+</application> -->
 </pre>
 
 <b>For IOS</b><br/><br/>
