@@ -43,10 +43,10 @@ If you want to enable Google Maps on iOS, obtain the Google API key and edit you
 8. Connect a mobile device to your development machine
 
 9. Run the test application:
-On Android:
-Run react-native run-android
-On iOS:
-Open ios/YourReactProject.xcodeproj in Xcode
-Hit Run after selecting the desired device
-Enjoy!!!
+   On Android:
+   Run react-native run-android
+   On iOS:
+   Open ios/YourReactProject.xcodeproj in Xcode
+   Hit Run after selecting the desired device
+   Enjoy!!!
 
