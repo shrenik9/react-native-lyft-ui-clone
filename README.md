@@ -15,7 +15,7 @@ Add your API key to your manifest file (android/app/src/main/AndroidManifest.xml
 
 <b>For IOS</b><br/><br/>
 If you want to enable Google Maps on iOS, obtain the Google API key and edit your AppDelegate.m as follows:
-
+````html
 + #import <GoogleMaps/GoogleMaps.h>
 
 @implementation AppDelegate
@@ -24,4 +24,5 @@ If you want to enable Google Maps on iOS, obtain the Google API key and edit you
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
 +  [GMSServices provideAPIKey:@"_YOUR_API_KEY_"]; // add this line using the api key obtained from Google Console
-...
+ ...
+````
